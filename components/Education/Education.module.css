@@ -1,0 +1,70 @@
+.mainContainer {
+  font-family: Poppins;
+}
+
+.experienceSection {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.experienceItem {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experienceItemLeft {
+  display: flex;
+  gap: 15px;
+}
+
+.companyLogoContainer {
+  width: 50px;
+  height: 50px;
+}
+
+.companyLogoImage {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.companyDetails {
+  color: black;
+}
+
+.companyHeader {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.companyPosition {
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.experienceDate {
+  font-size: 1rem;
+}
+
+.marginTop {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .experienceItem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .experienceRightSide {
+    margin-left: 65px;
+  }
+
+  .experienceDate {
+    font-size: 0.8rem;
+  }
+}

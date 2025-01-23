@@ -1,0 +1,136 @@
+.mainContainer {
+  padding: 20px;
+  font-family: Poppins;
+  color: black;
+  width: 100%;
+}
+
+.wrapperContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.detailsContainer {
+  width: 70%;
+  line-height: 1.8;
+}
+
+.skillPills {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.imagePill {
+  width: 20px;
+  height: 20px;
+}
+
+.skillImage {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.skillPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+
+.projectIntro {
+  margin-top: 15px;
+}
+
+.projectKeySection {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sectionDetails {
+  margin-top: 10px;
+}
+
+.sectionList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.purposeContainer {
+  margin-top: 15px;
+}
+
+.purposeHeader {
+  font-size: 2.4rem;
+}
+
+.footerContainer {
+  margin-top: 100px;
+}
+
+.benefitsText {
+  margin-top: 10px;
+}
+
+.analyticsImage {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid gray;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Icons {
+  display: flex;
+  gap: 8px;
+}
+
+.linkIcon {
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.linkIcon:hover {
+  transform: scale(1.1);
+}
+
+.githubIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.githubIcon:hover {
+  transform: scale(1.1);
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .detailsContainer {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .purposeHeader {
+    font-size: 1.8rem;
+  }
+}

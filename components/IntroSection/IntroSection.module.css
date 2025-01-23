@@ -1,0 +1,98 @@
+.mainContainer {
+  margin-top: 100px;
+  width: 100%;
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainSection {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.sectionHeader {
+  color: black;
+}
+
+.subSection {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.headerName {
+  font-size: 3.5rem;
+}
+
+.portfolioBio {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  margin-top: 15px;
+}
+
+.marginTop {
+  margin-top: 15px;
+}
+
+.subSectionText {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.profileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.linkedinLogo {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.githubLogo {
+  cursor: pointer;
+}
+
+.contactLogo {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.2s ease;
+  border-radius: 4px;
+}
+
+.contactLogo:hover {
+  transform: scale(1.1);
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .mainSection {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+
+  .sectionHeader {
+    text-align: center;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .portfolioBio {
+    font-size: 1.2rem;
+  }
+}
