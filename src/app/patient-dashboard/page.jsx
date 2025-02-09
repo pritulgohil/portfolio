@@ -8,12 +8,15 @@ const page = () => {
     <>
       <div className={styles.mainContainer}>
         <ProjectShowcase videoUrl={"/videos/Patient-Dashboard-Video.mp4"} />
-        <ProjectShowcaseHeader headerText={"Patient Dashboard Overview"} />
+        <ProjectShowcaseHeader
+          headerText={"Patient Dashboard"}
+          showLinkIcon
+          showGithubIcon
+          siteLink={"https://patient-dashboard-pritul.vercel.app/"}
+          githubLink={"https://github.com/pritulgohil/Patient-Dashboard"}
+        />{" "}
         <div className={styles.wrapperContainer}>
           <div className={styles.detailsContainer}>
-            <div className={styles.underDevelopment}>
-              <span className={styles.tag}>Under Development</span>
-            </div>
             <div className={styles.skillPills}>
               <div className={styles.skillPill}>
                 <div className={styles.imagePill}>
