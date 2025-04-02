@@ -22,16 +22,7 @@ const Footer = () => {
           <hr />
         </div>
         <div className={styles.credits}>
-          <span>
-            Portfolio made with NextJs, source code available on{" "}
-            <a
-              className={styles.link}
-              href="https://github.com/pritulgohil/portfolio"
-              target="_blank"
-            >
-              Github
-            </a>
-          </span>
+          <span>Portfolio made with NextJs,</span>
         </div>
       </div>
     </>

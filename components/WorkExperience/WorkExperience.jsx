@@ -22,13 +22,13 @@ const WorkExperience = () => {
                   <p>Vosyn • Etobicoke, ON</p>
                 </div>
                 <div className={styles.companyPosition}>
-                  <p>React Developer & Help Desk Technician</p>
+                  <p>Front-End Developer</p>
                 </div>
               </div>
             </div>
             <div className={styles.experienceRightSide}>
               <div className={styles.experienceDate}>
-                <p>August 2024 - Present</p>
+                <p>August 2024 - December 2024</p>
               </div>
             </div>
           </div>
@@ -41,15 +41,6 @@ const WorkExperience = () => {
               tests with Jest and React Testing Library to ensure reliability,
               while collaborating with Agile teams for fast, high-quality
               delivery. <br />
-              <br />
-              Additionally, I provided technical support via tickets, resolving
-              customer issues promptly and ensuring satisfaction. Using remote
-              control tools, I troubleshot and resolved issues, maintaining a
-              seamless experience. I worked with TypeScript, Redux, and RxJS to
-              optimize app performance and manage state. I also collaborated
-              with cross-functional teams to propose solutions and process
-              improvements, and trained new hires on customer support best
-              practices.
             </p>
           </div>
           <div className={`${styles.experienceItem} ${styles.marginTop}`}>
@@ -66,7 +57,7 @@ const WorkExperience = () => {
                   <p>Softcolon • Ahmedabad, IN</p>
                 </div>
                 <div className={styles.companyPosition}>
-                  <p>Customer Support Associate</p>
+                  <p>React Developer</p>
                 </div>
               </div>
             </div>
@@ -78,23 +69,18 @@ const WorkExperience = () => {
           </div>
           <div className={styles.experienceDescription}>
             <p>
-              I regularly updated websites to ensure fresh content and a
-              seamless user experience. By implementing local SEO strategies
-              with tools like SEMrush and Ahrefs, I successfully boosted local
-              search rankings. I contributed to growing an Amazon affiliate
-              site’s sales through keyword research, backlink building, and
-              on-page/off-page SEO. Collaborating with graphic designers, I
-              helped create visually appealing, functional elements using Adobe
-              Creative Suite and Figma.
+              I built responsive, high-performance websites with a focus on
+              UI/UX design, cross-browser compatibility, and accessibility. I
+              developed interactive web elements and optimized WordPress
+              websites for security, speed, and user engagement. Additionally, I
+              designed custom graphics and marketing materials using Adobe
+              Creative Suite, including Photoshop, Illustrator, and XD. I also
+              developed dynamic and scalable web applications using React,
+              ensuring seamless performance and user experience. To enhance
+              digital marketing campaigns, I integrated third-party APIs,
+              automation tools, and email marketing platforms. Furthermore, I
+              conducted A/B testing to optimize website conversion rates.
               <br />
-              <br />
-              Additionally, I provided excellent customer support, managing
-              inbound inquiries and resolving technical issues. Using ticketing
-              systems and databases, I efficiently tracked service requests and
-              assisted customers with software setup and troubleshooting through
-              remote support tools. I documented feedback to contribute to
-              system improvements, helping enhance the customer experience and
-              satisfaction.
             </p>
           </div>
         </div>
